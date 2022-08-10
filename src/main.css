@@ -1,0 +1,48 @@
+body {
+  font: 14px "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  margin: 0 500px 0 500px;
+}
+
+h1,
+h2 {
+  line-height: 1.1;
+  margin-bottom: 0 0 20px;
+}
+
+h1 {
+  margin-top: 58px;
+  font-size: 28px;
+  color: #222;
+}
+
+h2 {
+  color: #393939;
+}
+
+p {
+  color: #727272;
+  margin-bottom: 0 0 20px;
+}
+
+a {
+  color: #267cb9;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+strong {
+  color: #222;
+}
+
+ul {
+  margin-bottom: 0 0 20px;
+}
+li {
+  color: #727272;
+}
