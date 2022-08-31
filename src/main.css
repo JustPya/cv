@@ -1,0 +1,91 @@
+body {
+  font: 14px 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 23px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.icons {
+  margin: 0;
+  padding: 0;
+}
+
+.social-media {
+  text-align: right;
+}
+
+.content {
+  border-top: 1px solid #e5e5e5;
+}
+
+.description {
+  text-align: justify;
+}
+
+h1,
+h2 {
+  margin: 0 0 20px 0;
+}
+
+h1 {
+  padding-top: 20px;
+  color: #222;
+}
+
+h2 {
+  color: #393939;
+}
+
+p {
+  color: #727272;
+  margin-bottom: 0 0 20px 0;
+}
+
+a {
+  color: #267cb9;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+strong {
+  color: #222;
+}
+
+ul {
+  margin: 0 0 20px;
+}
+
+li {
+  color: #727272;
+}
+
+/* Laptop breakpoint */
+@media only screen and (min-width: 1024px) {
+  .wrapper {
+    width: 860px;
+    margin: 58px auto;
+    display: block;
+  }
+  .header {
+    float: left;
+    width: 270px;
+    position: fixed;
+  }
+  .content {
+    float: right;
+    width: 500px;
+    border: none;
+  }
+}
