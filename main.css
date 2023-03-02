@@ -25,7 +25,6 @@ h2 {
 
 p {
   color: #727272;
-  margin-bottom: 0 0 20px;
   text-align: justify;
 }
 
@@ -42,11 +41,13 @@ strong {
   color: #222;
 }
 
-ul {
-  margin-bottom: 0 0 20px;
-}
 li {
-  color: #727272;
+  color: black;
+}
+
+#text {
+  margin-top: 0%;
+  margin-bottom: 0px;
 }
 
 .box-1 {
